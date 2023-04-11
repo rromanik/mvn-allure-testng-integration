@@ -17,7 +17,5 @@ public class UserScenarioTest {
 		sut = new SystemUnderTest();
 		sut.openSystemUnderTest();
 		sut.navigateToAdminModule();
-		sut.setupSettings("{username: admin; role: superadmin;}");
-		sut.getSettings();
 	}
 }
