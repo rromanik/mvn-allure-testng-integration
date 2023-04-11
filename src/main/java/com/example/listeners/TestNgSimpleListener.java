@@ -14,10 +14,10 @@ public class TestNgSimpleListener implements ITestListener {
     @Override
     public void onTestSuccess(ITestResult result) {
         System.out.println("On test success");
-        attachMe("Text to be attached to the Listenera attachment");
+        attachMe("Text to be attached to the Test Listener attachment");
     }
 
-    @Attachment(value = "Listener attachment")
+    @Attachment(value = "Test Listener attachment")
     private String attachMe(String text) {
         return text;
     }

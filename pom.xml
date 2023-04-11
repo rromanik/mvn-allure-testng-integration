@@ -45,13 +45,13 @@
                     </argLine>
 
                     <properties>
-<!--                        <property>-->
-<!--                            <name>usedefaultlisteners</name>-->
-<!--                            <value>false</value>-->
-<!--                        </property>-->
+                        <property>
+                            <name>usedefaultlisteners</name>
+                            <value>false</value>
+                        </property>
                         <property>
                             <name>listener</name>
-                            <value>com.example.listeners.TestNgSimpleListener</value>
+                            <value>com.example.listeners.TestNgSimpleListener, com.example.listeners.TestNgInvocationListener</value>
                         </property>
                     </properties>
                 </configuration>
